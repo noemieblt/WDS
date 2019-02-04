@@ -24,4 +24,13 @@
 		</div>
 	</div> 
 </body>
+<?php
+	// Click button test
+	if (isset($_POST['validation'])) {
+		// Check of the password input
+		if($_POST['password'] == $_POST['confirm-password']){
+			$reponse = $bdd->prepare("")
+		}
+	}
+?>
 </html>
